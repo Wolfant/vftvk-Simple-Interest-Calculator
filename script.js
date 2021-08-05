@@ -10,10 +10,10 @@ function compute() {
     
     amount = parseInt(principal) + parseInt(interest);
 
-    outText = "\<br\>If you deposit "+
-                principal+",\<br\>at an interest rate of "+
-                rate+"%\<br\>You will receive an amount of "+
-                amount+",\<br\>in the year "+year+"\<br\>"
+    outText = "\<br\>If you deposit <strong>"+
+                principal+"</strong>,\<br\>at an interest rate of <strong>"+
+                rate+"%</strong>\<br\>You will receive an amount of <strong>"+
+                amount+"</strong>,\<br\>in the year <strong>"+year+"\<br\>"
 
     document.getElementById("result").innerHTML=outText;
     }
