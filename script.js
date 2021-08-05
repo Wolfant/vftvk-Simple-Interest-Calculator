@@ -7,9 +7,8 @@ function compute() {
     var years = document.getElementById("years").value;
     var interest = parseInt(principal) * parseInt(years) * parseInt(rate)/100;
     var year = parseInt(new Date().getFullYear()) + parseInt(years);
-    console.log("año " + year + "años " + years)
-
-    amount = principal + interest;
+    
+    amount = parseInt(principal) + parseInt(interest);
 
     outText = "\<br\>If you deposit "+
                 principal+",\<br\>at an interest rate of "+
