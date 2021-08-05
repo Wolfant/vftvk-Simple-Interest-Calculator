@@ -17,6 +17,9 @@ function compute() {
 
     document.getElementById("result").innerHTML=outText;
     }
+    else {
+        document.getElementById("principal").focus();
+    } 
  }
          
  function updateRate(){
@@ -27,7 +30,6 @@ function compute() {
  function validate(data){
      if (data < 1)  {
          window.alert("Enter a positive number");
-         document.getElementById("principal").focus()
          return false
      }
      return true
