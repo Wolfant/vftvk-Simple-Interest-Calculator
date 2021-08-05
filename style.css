@@ -3,6 +3,10 @@ h1 {
     color:grey;
     font-family:verdana
 }
+strong {
+    font-weight: bold;
+    color:gold;
+  }
     
 .maindiv {
     background-color:white;
@@ -13,3 +17,4 @@ h1 {
     align:center;
     
 }
+
